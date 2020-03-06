@@ -1,16 +1,67 @@
 <!DOCTYPE html>
 <meta charset='utf-8'>
 <head>
-    <title>Hierarchy</title>
+    <title>Como a matemática </title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,900" rel="stylesheet">
+
+
 </head>
 
 
 <body>
 
-  <div id="chart-1"></div>
+
+  <div class="container">
+
+    <div class="chart-holder">
+      
+      <p class="title">H1N1 (2009)</p>
+      <p class="sub-title">r0: 1.5</p>
+
+      <div class="chart" id="h1n1"></div>
+
+      <p class="chart-explainer">O nível de contágio da epidemia de H1N1 de 2009, que ficou conhecida como 'Gripe Suína', foi menor que o observado nos primeiros meses de disseminação do novo coronavírus.</p>
+
+    </div>
+
+    <div class="chart-holder">
+      
+        <p class="title">Covid-19</p>
+        <p class="sub-title"></p>
+
+
+        <div class="chart" id="covid-19"></div>
+
+        <p class="chart-explainer">A nova epidemia parece se espalhar mais rápido que as gripes normais, ainda que o número base de reprodutibilidade seja, por enquanto, incerto.</p>
+
+    </div>
+
+    <div class="chart-holder">
+      
+        <p class="title">Varíola</p>
+        <p class="sub-title">r0: 5</p>
+
+        <div class="chart" id="smallpox"></div>
+
+
+        <p class="chart-explainer">Outras doenças, entretanto, são muito mais contagiosas. A varíola, que está extinta devido ao sucesso de campanhas de vacinação, se espalhava de forma ainda mais rápida.</p>
+
+    </div>
+
+  </div>
+
+
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="chart-1.js"></script>
+  <!-- Math notation -->
+  <script src="https://fred-wang.github.io/mathml.css/mspace.js"></script>
+
+<!--   <script src="chart-2.js"></script>
+  <script src="chart-3.js"></script> -->
+
+
 
 </body>

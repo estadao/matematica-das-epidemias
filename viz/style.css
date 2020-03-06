@@ -1,5 +1,12 @@
+/* Dataviz */
+
+body {
+  background-color: #fff5fb;
+}
+
 svg {
-  background-color: #fff;
+  background-color: none;
+
 }
 
 line {
@@ -8,13 +15,41 @@ line {
   visibility: hidden;
 }
 
-.hidden {
-  visibility: hidden;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+}
 
+.chart {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.chart-explainer {
+  max-width: 300px;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
 }
 
 .active {
- visibility: visible;
+  visibility: visible;
+  stroke: #ffbaba;
+  stroke-dasharray: 2,1;
+  stroke-linejoin: round;
 }
 
 .inactive {
