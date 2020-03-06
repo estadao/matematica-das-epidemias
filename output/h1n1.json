@@ -1,0 +1,239 @@
+[
+    {
+        "id": "0001",
+        "virus_name": "H1N1",
+        "to_infect": 2,
+        "countdown": 2,
+        "alive": true,
+        "resolved": true,
+        "parent": null,
+        "children": [
+            "0002",
+            "0003"
+        ],
+        "generation": 1
+    },
+    {
+        "id": "0002",
+        "virus_name": "H1N1",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0001",
+        "children": [
+            "0004",
+            "0005",
+            "0006"
+        ],
+        "generation": 2
+    },
+    {
+        "id": "0003",
+        "virus_name": "H1N1",
+        "to_infect": 1,
+        "countdown": 3,
+        "alive": true,
+        "resolved": true,
+        "parent": "0001",
+        "children": [
+            "0007"
+        ],
+        "generation": 2
+    },
+    {
+        "id": "0004",
+        "virus_name": "H1N1",
+        "to_infect": 1,
+        "countdown": 2,
+        "alive": true,
+        "resolved": true,
+        "parent": "0002",
+        "children": [
+            "0008"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0005",
+        "virus_name": "H1N1",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0002",
+        "children": [
+            "0009",
+            "0010"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0006",
+        "virus_name": "H1N1",
+        "to_infect": 1,
+        "countdown": 3,
+        "alive": true,
+        "resolved": true,
+        "parent": "0002",
+        "children": [
+            "0011"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0007",
+        "virus_name": "H1N1",
+        "to_infect": 1,
+        "countdown": 1,
+        "alive": true,
+        "resolved": true,
+        "parent": "0003",
+        "children": [
+            "0012"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0008",
+        "virus_name": "H1N1",
+        "to_infect": 1,
+        "countdown": 3,
+        "alive": true,
+        "resolved": true,
+        "parent": "0004",
+        "children": [
+            "0013"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0009",
+        "virus_name": "H1N1",
+        "to_infect": 0,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0005",
+        "children": [],
+        "generation": 4
+    },
+    {
+        "id": "0010",
+        "virus_name": "H1N1",
+        "to_infect": 4,
+        "countdown": 3,
+        "alive": true,
+        "resolved": true,
+        "parent": "0005",
+        "children": [
+            "0014",
+            "0015",
+            "0016",
+            "0017"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0011",
+        "virus_name": "H1N1",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0006",
+        "children": [
+            "0018",
+            "0019"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0012",
+        "virus_name": "H1N1",
+        "to_infect": 0,
+        "countdown": 3,
+        "alive": true,
+        "resolved": true,
+        "parent": "0007",
+        "children": [],
+        "generation": 4
+    },
+    {
+        "id": "0013",
+        "virus_name": "H1N1",
+        "to_infect": 0,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0008",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0014",
+        "virus_name": "H1N1",
+        "to_infect": 2,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0010",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0015",
+        "virus_name": "H1N1",
+        "to_infect": 1,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0010",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0016",
+        "virus_name": "H1N1",
+        "to_infect": 2,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0010",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0017",
+        "virus_name": "H1N1",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0010",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0018",
+        "virus_name": "H1N1",
+        "to_infect": 3,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0011",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0019",
+        "virus_name": "H1N1",
+        "to_infect": 2,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0011",
+        "children": [],
+        "generation": 5
+    }
+]

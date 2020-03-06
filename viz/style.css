@@ -1,0 +1,65 @@
+svg {
+  background-color: #fff;
+}
+
+line {
+  stroke: #e4e4e4;
+  stroke-width: .5;
+  visibility: hidden;
+}
+
+.hidden {
+  visibility: hidden;
+
+}
+
+.active {
+ visibility: visible;
+}
+
+.inactive {
+  visibility: visible;
+}
+
+
+
+
+/*circle[data-generation="1"] {
+  fill: #a70000;
+}
+
+circle[data-generation="2"] {
+  fill: #ff0000;
+}
+
+circle[data-generation="3"] {
+  fill: #ff5252;
+}
+
+circle[data-generation="4"] {
+  fill: #ff7b7b;
+}
+
+circle[data-generation="5"] {
+  fill: #ffbaba;
+}
+
+line[data-generation="1"] {
+  stroke: #a70000;
+}
+
+line[data-generation="2"] {
+  stroke: #FF0000;
+}
+
+line[data-generation="3"] {
+  stroke: #FF5252;
+}
+
+line[data-generation="4"] {
+  stroke: #ff7b7b;
+}
+
+line[data-generation="5"] {
+  stroke: #ffbaba;
+}*/

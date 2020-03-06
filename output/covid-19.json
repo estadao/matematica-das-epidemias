@@ -1,0 +1,1597 @@
+[
+    {
+        "id": "0001",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 6,
+        "alive": true,
+        "resolved": true,
+        "parent": null,
+        "children": [
+            "0002",
+            "0003",
+            "0004",
+            "0005"
+        ],
+        "generation": 1
+    },
+    {
+        "id": "0002",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0001",
+        "children": [
+            "0006",
+            "0007",
+            "0008",
+            "0009"
+        ],
+        "generation": 2
+    },
+    {
+        "id": "0003",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0001",
+        "children": [
+            "0010",
+            "0011"
+        ],
+        "generation": 2
+    },
+    {
+        "id": "0004",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 3,
+        "alive": true,
+        "resolved": true,
+        "parent": "0001",
+        "children": [
+            "0012",
+            "0013"
+        ],
+        "generation": 2
+    },
+    {
+        "id": "0005",
+        "virus_name": "Covid-19",
+        "to_infect": 5,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0001",
+        "children": [
+            "0014",
+            "0015",
+            "0016",
+            "0017",
+            "0018"
+        ],
+        "generation": 2
+    },
+    {
+        "id": "0006",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0002",
+        "children": [
+            "0019",
+            "0020",
+            "0021"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0007",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0002",
+        "children": [
+            "0022",
+            "0023",
+            "0024"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0008",
+        "virus_name": "Covid-19",
+        "to_infect": 0,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0002",
+        "children": [],
+        "generation": 3
+    },
+    {
+        "id": "0009",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 3,
+        "alive": true,
+        "resolved": true,
+        "parent": "0002",
+        "children": [
+            "0025",
+            "0026"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0010",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0003",
+        "children": [
+            "0027",
+            "0028"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0011",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 3,
+        "alive": true,
+        "resolved": true,
+        "parent": "0003",
+        "children": [
+            "0029",
+            "0030",
+            "0031",
+            "0032"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0012",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0004",
+        "children": [
+            "0033",
+            "0034",
+            "0035",
+            "0036"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0013",
+        "virus_name": "Covid-19",
+        "to_infect": 1,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0004",
+        "children": [
+            "0037"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0014",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0005",
+        "children": [
+            "0038",
+            "0039"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0015",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0005",
+        "children": [
+            "0040",
+            "0041",
+            "0042"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0016",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0005",
+        "children": [
+            "0043",
+            "0044"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0017",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0005",
+        "children": [
+            "0045",
+            "0046",
+            "0047"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0018",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 6,
+        "alive": true,
+        "resolved": true,
+        "parent": "0005",
+        "children": [
+            "0048",
+            "0049",
+            "0050",
+            "0051"
+        ],
+        "generation": 3
+    },
+    {
+        "id": "0019",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0006",
+        "children": [
+            "0052",
+            "0053"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0020",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 3,
+        "alive": true,
+        "resolved": true,
+        "parent": "0006",
+        "children": [
+            "0054",
+            "0055",
+            "0056"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0021",
+        "virus_name": "Covid-19",
+        "to_infect": 1,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0006",
+        "children": [
+            "0057"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0022",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0007",
+        "children": [
+            "0058",
+            "0059",
+            "0060",
+            "0061"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0023",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0007",
+        "children": [
+            "0062",
+            "0063"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0024",
+        "virus_name": "Covid-19",
+        "to_infect": 1,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0007",
+        "children": [
+            "0064"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0025",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0009",
+        "children": [
+            "0065",
+            "0066"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0026",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0009",
+        "children": [
+            "0067",
+            "0068",
+            "0069"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0027",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0010",
+        "children": [
+            "0070",
+            "0071",
+            "0072"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0028",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 6,
+        "alive": true,
+        "resolved": true,
+        "parent": "0010",
+        "children": [
+            "0073",
+            "0074"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0029",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 3,
+        "alive": true,
+        "resolved": true,
+        "parent": "0011",
+        "children": [
+            "0075",
+            "0076",
+            "0077"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0030",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0011",
+        "children": [
+            "0078",
+            "0079"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0031",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0011",
+        "children": [
+            "0080",
+            "0081"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0032",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0011",
+        "children": [
+            "0082",
+            "0083",
+            "0084"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0033",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0012",
+        "children": [
+            "0085",
+            "0086"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0034",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0012",
+        "children": [
+            "0087",
+            "0088",
+            "0089"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0035",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 3,
+        "alive": true,
+        "resolved": true,
+        "parent": "0012",
+        "children": [
+            "0090",
+            "0091"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0036",
+        "virus_name": "Covid-19",
+        "to_infect": 0,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0012",
+        "children": [],
+        "generation": 4
+    },
+    {
+        "id": "0037",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0013",
+        "children": [
+            "0092",
+            "0093",
+            "0094",
+            "0095"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0038",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 3,
+        "alive": true,
+        "resolved": true,
+        "parent": "0014",
+        "children": [
+            "0096",
+            "0097",
+            "0098"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0039",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0014",
+        "children": [
+            "0099",
+            "0100",
+            "0101"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0040",
+        "virus_name": "Covid-19",
+        "to_infect": 5,
+        "countdown": 3,
+        "alive": true,
+        "resolved": true,
+        "parent": "0015",
+        "children": [
+            "0102",
+            "0103",
+            "0104",
+            "0105",
+            "0106"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0041",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 6,
+        "alive": true,
+        "resolved": true,
+        "parent": "0015",
+        "children": [
+            "0107",
+            "0108",
+            "0109",
+            "0110"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0042",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 3,
+        "alive": true,
+        "resolved": true,
+        "parent": "0015",
+        "children": [
+            "0111",
+            "0112"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0043",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 6,
+        "alive": true,
+        "resolved": true,
+        "parent": "0016",
+        "children": [
+            "0113",
+            "0114"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0044",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0016",
+        "children": [
+            "0115",
+            "0116",
+            "0117"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0045",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0017",
+        "children": [
+            "0118",
+            "0119"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0046",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0017",
+        "children": [
+            "0120",
+            "0121",
+            "0122",
+            "0123"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0047",
+        "virus_name": "Covid-19",
+        "to_infect": 1,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0017",
+        "children": [
+            "0124"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0048",
+        "virus_name": "Covid-19",
+        "to_infect": 0,
+        "countdown": 4,
+        "alive": true,
+        "resolved": true,
+        "parent": "0018",
+        "children": [],
+        "generation": 4
+    },
+    {
+        "id": "0049",
+        "virus_name": "Covid-19",
+        "to_infect": 1,
+        "countdown": 2,
+        "alive": true,
+        "resolved": true,
+        "parent": "0018",
+        "children": [
+            "0125"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0050",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0018",
+        "children": [
+            "0126",
+            "0127",
+            "0128"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0051",
+        "virus_name": "Covid-19",
+        "to_infect": 1,
+        "countdown": 5,
+        "alive": true,
+        "resolved": true,
+        "parent": "0018",
+        "children": [
+            "0129"
+        ],
+        "generation": 4
+    },
+    {
+        "id": "0052",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 3,
+        "alive": false,
+        "resolved": false,
+        "parent": "0019",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0053",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0019",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0054",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0020",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0055",
+        "virus_name": "Covid-19",
+        "to_infect": 1,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0020",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0056",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0020",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0057",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0021",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0058",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0022",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0059",
+        "virus_name": "Covid-19",
+        "to_infect": 1,
+        "countdown": 7,
+        "alive": true,
+        "resolved": false,
+        "parent": "0022",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0060",
+        "virus_name": "Covid-19",
+        "to_infect": 1,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0022",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0061",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0022",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0062",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0023",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0063",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0023",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0064",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0024",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0065",
+        "virus_name": "Covid-19",
+        "to_infect": 1,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0025",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0066",
+        "virus_name": "Covid-19",
+        "to_infect": 5,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0025",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0067",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0026",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0068",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0026",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0069",
+        "virus_name": "Covid-19",
+        "to_infect": 5,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0026",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0070",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0027",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0071",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0027",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0072",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0027",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0073",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0028",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0074",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0028",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0075",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0029",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0076",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 6,
+        "alive": true,
+        "resolved": false,
+        "parent": "0029",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0077",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0029",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0078",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0030",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0079",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0030",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0080",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0031",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0081",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0031",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0082",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0032",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0083",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0032",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0084",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0032",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0085",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0033",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0086",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0033",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0087",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 6,
+        "alive": true,
+        "resolved": false,
+        "parent": "0034",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0088",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 6,
+        "alive": true,
+        "resolved": false,
+        "parent": "0034",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0089",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0034",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0090",
+        "virus_name": "Covid-19",
+        "to_infect": 0,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0035",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0091",
+        "virus_name": "Covid-19",
+        "to_infect": 1,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0035",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0092",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0037",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0093",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0037",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0094",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 6,
+        "alive": true,
+        "resolved": false,
+        "parent": "0037",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0095",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": false,
+        "resolved": false,
+        "parent": "0037",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0096",
+        "virus_name": "Covid-19",
+        "to_infect": 0,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0038",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0097",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0038",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0098",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0038",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0099",
+        "virus_name": "Covid-19",
+        "to_infect": 0,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0039",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0100",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0039",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0101",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 3,
+        "alive": false,
+        "resolved": false,
+        "parent": "0039",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0102",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0040",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0103",
+        "virus_name": "Covid-19",
+        "to_infect": 0,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0040",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0104",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0040",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0105",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0040",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0106",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0040",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0107",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0041",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0108",
+        "virus_name": "Covid-19",
+        "to_infect": 1,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0041",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0109",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 6,
+        "alive": true,
+        "resolved": false,
+        "parent": "0041",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0110",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 6,
+        "alive": true,
+        "resolved": false,
+        "parent": "0041",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0111",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 6,
+        "alive": true,
+        "resolved": false,
+        "parent": "0042",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0112",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0042",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0113",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0043",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0114",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0043",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0115",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0044",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0116",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0044",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0117",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0044",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0118",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0045",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0119",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0045",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0120",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 3,
+        "alive": true,
+        "resolved": false,
+        "parent": "0046",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0121",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0046",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0122",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0046",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0123",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0046",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0124",
+        "virus_name": "Covid-19",
+        "to_infect": 1,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0047",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0125",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0049",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0126",
+        "virus_name": "Covid-19",
+        "to_infect": 2,
+        "countdown": 1,
+        "alive": true,
+        "resolved": false,
+        "parent": "0050",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0127",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 4,
+        "alive": true,
+        "resolved": false,
+        "parent": "0050",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0128",
+        "virus_name": "Covid-19",
+        "to_infect": 3,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0050",
+        "children": [],
+        "generation": 5
+    },
+    {
+        "id": "0129",
+        "virus_name": "Covid-19",
+        "to_infect": 4,
+        "countdown": 5,
+        "alive": true,
+        "resolved": false,
+        "parent": "0051",
+        "children": [],
+        "generation": 5
+    }
+]
