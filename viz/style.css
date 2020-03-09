@@ -1,7 +1,11 @@
 /* Dataviz */
 
 body {
-  background-color: #fff5fb;
+  /*background-color: #fff5fb;*/
+}
+
+rect {
+  display: none;
 }
 
 svg {
@@ -26,7 +30,7 @@ line {
   
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   .container {
     flex-direction: row;
   }
@@ -43,29 +47,30 @@ line {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .subtitle {
+  padding-bottom: 0px;
   text-align: center;
 }
 
-.day-count {
+.day-count, .gen-count {
   font-size: 20px;
   font-weight: lighter;
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .parameters {
   font-size: 18px;
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
   padding: 5px;
 }
 
 .chart-explainer {
-  height: 80px;
-  max-width: 300px;
-  text-align: center;
+  height: 100px;
+  width: 300px;
+  text-align: left;
   font-size: 14px;
   color: #000;
   padding: 20px;

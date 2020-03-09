@@ -19,9 +19,16 @@
     <div class="chart-holder">
       
       <h4 class="title">Covid-19</h4>
+      <div class="subtitle gen-count covid-19">1ª geração</div>
       <div class="subtitle parameters covid-19"><span class="parameters"><strong>r0:</strong> 2.6</span></div>
 
-      <div class="chart" id="covid-19"></div>
+      <div class="chart" id="covid-19-base-number"></div>
+
+      <div class="counter-holder">
+
+        <p class="subtitle counter"><strong>Infectados:</strong> 0</strong></p>
+      
+      </div>
 
       <p class="chart-explainer">A nova epidemia parece se espalhar mais rápido que as gripes normais, ainda que o número base de reprodutibilidade seja, por enquanto, incerto.</p>
 
@@ -30,22 +37,34 @@
     <div class="chart-holder">
       
       <h4 class="title">H1N1 (2009)</h4>
-      <div class="subtitle parameters h1n1"><span class="parameters"><strong>r0:</strong>1.5</span></div>
+      <div class="subtitle gen-count covid-19">1ª geração</div>
+      <div class="subtitle parameters h1n1"><span class="parameters"><strong>r0:</strong> 1.5</span></div>
 
-      <div class="chart" id="h1n1"></div>
+      <div class="chart" id="h1n1-base-number"></div>
 
-      <p class="chart-explainer">O nível de contágio da epidemia de H1N1 de 2009, que ficou conhecida como 'Gripe Suína', foi menor que o observado nos primeiros meses de disseminação do novo coronavírus.</p>
+      <div class="counter-holder">
+        
+        <p class="subtitle counter"><strong>Infectados:</strong> 0</strong></p>
+      
+      </div>
+
+      <p class="chart-explainer">Até mesmo o nível de contágio da epidemia de H1N1 de 2009, que ficou conhecida como 'Gripe Suína', foi menor que o observado nos primeiros meses de disseminação do novo coronavírus.</p>
 
     </div>
 
     <div class="chart-holder">
       
         <h4 class="title">Sarampo</h4>
-        <div class="subtitle parameters measles"><span class="parameters"></span></div>
+        <div class="subtitle gen-count covid-19">1ª geração</div>
+        <div class="subtitle parameters measles"><span class="parameters"><strong>r0:</strong> 15</span></span></div>
 
-        <div class="chart" id="measles"></div>
+        <div class="chart" id="measles-base-number"></div>
 
-        <p class="chart-explainer">Outras doenças, entretanto, são muito mais contagiosas. A varíola, que está extinta devido ao sucesso de campanhas de vacinação, se espalhava de forma ainda mais rápida.</p>
+        <div class="counter-holder">
+          <p class="subtitle counter"><strong>Infectados:</strong> 0</strong></p>
+        </div>
+
+        <p class="chart-explainer">Outras doenças são ainda mais contagiosas. O sarampo é um exemplo: ainda que hoje esteja contido após campanhas de vacinação bem-sucedidas, o vírus é capaz de causar grandes surtos em uma população vulnerável.</p>
 
     </div>
 
@@ -57,36 +76,64 @@
     <div class="chart-holder">
       
       <h4 class="title">Covid-19</h4>
+
+      <div class="subtitle gen-count-si covid-19">1ª geração</div>
+
       <div class="subtitle day-count covid-19">Dia 1</div>
-      <div class="subtitle parameters covid-19"><strong>r0:</strong> 2.6 | <strong>Intervalo serial</strong>: 4.4 </div>
+            
+      <div class="subtitle parameters covid-19"><strong>r0:</strong> 2.6 | <strong>SI</strong>: 4.4 </div>
 
-      <div class="chart" id="covid-19"></div>
+      <div class="chart" id="covid-19-serial-interval"></div>
 
-      <!-- <p class="chart-explainer">A nova epidemia parece se espalhar mais rápido que as gripes normais, ainda que o número base de reprodutibilidade seja, por enquanto, incerto.</p> -->
+      <div class="counter-holder">
+        <p class="subtitle counter"><strong>Infectados:</strong> 0</strong></p>
+      </div>
+
+      <p class="chart-explainer">A nova epidemia parece se espalhar mais rápido que as gripes normais, ainda que o número base de reprodutibilidade seja, por enquanto, incerto.</p>
 
     </div>
 
     <div class="chart-holder">
       
       <h4 class="title">H1N1 (2009)</h4>
+
+      <div class="subtitle gen-count-si covid-19">1ª geração</div>
+      
       <div class="subtitle day-count h1n1">Dia 1</div>
-      <div class="subtitle parameters h1n1"><strong>r0:</strong> 1.5 | <strong>Intervalo serial</strong>: 2.8  </div>
+      
+      <div class="subtitle parameters h1n1"><strong>r0:</strong> 1.5 | <strong>SI</strong>: 2.8  </div>
 
-      <div class="chart" id="h1n1"></div>
+      <div class="chart" id="h1n1-serial-interval"></div>
 
-      <!-- <p class="chart-explainer">O nível de contágio da epidemia de H1N1 de 2009, que ficou conhecida como 'Gripe Suína', foi menor que o observado nos primeiros meses de disseminação do novo coronavírus.</p> -->
+      <div class="counter-holder">
+      
+        <p class="subtitle counter"><strong>Infectados:</strong> 0</strong></p>
+      
+      </div>
+
+      <p class="chart-explainer">O nível de contágio da epidemia de H1N1 de 2009, que ficou conhecida como 'Gripe Suína', foi menor que o observado nos primeiros meses de disseminação do novo coronavírus.</p>
 
     </div>
 
     <div class="chart-holder">
       
         <h4 class="title">Sarampo</h4>
+            
+        <div class="subtitle gen-count-si covid-19">1ª geração</div>
+      
         <div class="subtitle day-count measles">Dia 1</div>
-        <div class="subtitle parameters measles"><strong>r0:</strong> 15 | <strong>Intervalo serial</strong>: 11.7 </div>
 
-        <div class="chart" id="measles"></div>
+        <div class="subtitle parameters measles"><strong>r0:</strong> 15 | <strong>SI</strong>: 11.7 </div>
 
-        <!-- <p class="chart-explainer">Outras doenças, entretanto, são muito mais contagiosas. A varíola, que está extinta devido ao sucesso de campanhas de vacinação, se espalhava de forma ainda mais rápida.</p> -->
+        <div class="chart" id="measles-serial-interval"></div>
+
+        <div class="counter-holder">
+
+          <p class="subtitle counter"><strong>Infectados:</strong> 0</strong></p>
+
+        </div>
+
+        <p class="chart-explainer">Outras doenças, entretanto, são muito mais contagiosas. A varíola, que está extinta devido ao sucesso de campanhas de vacinação, se espalhava de forma ainda mais rápida.</p>
 
     </div>
 
@@ -95,9 +142,11 @@
 
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script src="chart-1-pre-processed.js"></script>
-  <!-- <script src="time-aware-chart-pre-processed.js"></script> -->
+  <script src="draw.js"></script>
+  <!-- <script src="chart-1.js"></script> -->
+  <!-- <script src="chart-2.js"></script> -->
   <!-- <script src="pre-process-force.js"></script> -->
+  
   <!-- Math notation -->
   <script src="https://fred-wang.github.io/mathml.css/mspace.js"></script>
 
