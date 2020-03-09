@@ -55,7 +55,7 @@ line {
   text-align: center;
 }
 
-.day-count, .gen-count {
+.day-count, .gen-count, .gen-count-si, .gen-count-cfr {
   font-size: 20px;
   font-weight: lighter;
   font-family: "Lato", sans-serif;

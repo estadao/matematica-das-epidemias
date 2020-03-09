@@ -74,6 +74,7 @@ Promise.all([
             newNode.id = node.data.data.id;
             newNode.generation = node.data.data.generation;
             newNode.virusName = node.data.data.virus_name;
+            newNode.alive = node.data.data.alive;
             
             outputData.push(newNode);
             

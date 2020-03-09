@@ -13,22 +13,24 @@
 <body>
 
 
+  <!-- Simple r0 comparison -->
   <div class="container">
 
-    <!-- Simple r0 comparison -->
     <div class="chart-holder">
       
       <h4 class="title">Covid-19</h4>
+
       <div class="subtitle gen-count covid-19">1ª geração</div>
+      
       <div class="subtitle parameters covid-19"><span class="parameters"><strong>r0:</strong> 2.6</span></div>
 
       <div class="chart" id="covid-19-base-number"></div>
 
-      <div class="counter-holder">
+      <!-- <div class="counter-holder">
 
         <p class="subtitle counter"><strong>Infectados:</strong> 0</strong></p>
       
-      </div>
+      </div> -->
 
       <p class="chart-explainer">A nova epidemia parece se espalhar mais rápido que as gripes normais, ainda que o número base de reprodutibilidade seja, por enquanto, incerto.</p>
 
@@ -37,16 +39,18 @@
     <div class="chart-holder">
       
       <h4 class="title">H1N1 (2009)</h4>
-      <div class="subtitle gen-count covid-19">1ª geração</div>
+ 
+      <div class="subtitle gen-count h1n1">1ª geração</div>
+ 
       <div class="subtitle parameters h1n1"><span class="parameters"><strong>r0:</strong> 1.5</span></div>
 
       <div class="chart" id="h1n1-base-number"></div>
 
-      <div class="counter-holder">
+      <!-- <div class="counter-holder">
         
         <p class="subtitle counter"><strong>Infectados:</strong> 0</strong></p>
       
-      </div>
+      </div> -->
 
       <p class="chart-explainer">Até mesmo o nível de contágio da epidemia de H1N1 de 2009, que ficou conhecida como 'Gripe Suína', foi menor que o observado nos primeiros meses de disseminação do novo coronavírus.</p>
 
@@ -55,14 +59,18 @@
     <div class="chart-holder">
       
         <h4 class="title">Sarampo</h4>
-        <div class="subtitle gen-count covid-19">1ª geração</div>
+
+        <div class="subtitle gen-count measles">1ª geração</div>
+
         <div class="subtitle parameters measles"><span class="parameters"><strong>r0:</strong> 15</span></span></div>
 
         <div class="chart" id="measles-base-number"></div>
 
-        <div class="counter-holder">
+        <!-- <div class="counter-holder">
+
           <p class="subtitle counter"><strong>Infectados:</strong> 0</strong></p>
-        </div>
+
+        </div> -->
 
         <p class="chart-explainer">Outras doenças são ainda mais contagiosas. O sarampo é um exemplo: ainda que hoje esteja contido após campanhas de vacinação bem-sucedidas, o vírus é capaz de causar grandes surtos em uma população vulnerável.</p>
 
@@ -70,9 +78,9 @@
 
   </div>
 
+  <!-- R0 + Serial Interval comparison-->
   <div class="container">
 
-    <!-- R0 + Serial Interval comparison-->
     <div class="chart-holder">
       
       <h4 class="title">Covid-19</h4>
@@ -85,9 +93,11 @@
 
       <div class="chart" id="covid-19-serial-interval"></div>
 
-      <div class="counter-holder">
+      <!-- <div class="counter-holder">
+        
         <p class="subtitle counter"><strong>Infectados:</strong> 0</strong></p>
-      </div>
+      
+      </div> -->
 
       <p class="chart-explainer">A nova epidemia parece se espalhar mais rápido que as gripes normais, ainda que o número base de reprodutibilidade seja, por enquanto, incerto.</p>
 
@@ -97,7 +107,7 @@
       
       <h4 class="title">H1N1 (2009)</h4>
 
-      <div class="subtitle gen-count-si covid-19">1ª geração</div>
+      <div class="subtitle gen-count-si h1n1">1ª geração</div>
       
       <div class="subtitle day-count h1n1">Dia 1</div>
       
@@ -105,11 +115,11 @@
 
       <div class="chart" id="h1n1-serial-interval"></div>
 
-      <div class="counter-holder">
+      <!-- <div class="counter-holder">
       
         <p class="subtitle counter"><strong>Infectados:</strong> 0</strong></p>
       
-      </div>
+      </div> -->
 
       <p class="chart-explainer">O nível de contágio da epidemia de H1N1 de 2009, que ficou conhecida como 'Gripe Suína', foi menor que o observado nos primeiros meses de disseminação do novo coronavírus.</p>
 
@@ -119,7 +129,7 @@
       
         <h4 class="title">Sarampo</h4>
             
-        <div class="subtitle gen-count-si covid-19">1ª geração</div>
+        <div class="subtitle gen-count-si measles">1ª geração</div>
       
         <div class="subtitle day-count measles">Dia 1</div>
 
@@ -127,11 +137,11 @@
 
         <div class="chart" id="measles-serial-interval"></div>
 
-        <div class="counter-holder">
+        <!-- <div class="counter-holder">
 
           <p class="subtitle counter"><strong>Infectados:</strong> 0</strong></p>
 
-        </div>
+        </div> -->
 
         <p class="chart-explainer">Outras doenças, entretanto, são muito mais contagiosas. A varíola, que está extinta devido ao sucesso de campanhas de vacinação, se espalhava de forma ainda mais rápida.</p>
 
@@ -139,12 +149,86 @@
 
   </div>
 
+  <!-- R0 + Serial Interval + Case Fatality Ratio comparison -->
+  <div class="container">
+
+    <div class="chart-holder">
+    
+      <h4 class="title">Covid-19</h4>
+
+      <div class="subtitle gen-count-cfr covid-19">1ª geração</div>
+      
+      <div class="subtitle day-count covid-19">Dia 1</div>
+      
+      <div class="subtitle parameters covid-19"><strong>r0:</strong> 2.6 | <strong>SI</strong>: 4.4 | <strong>CFR:</strong> 2.3%</div>
+
+      <div class="chart" id="covid-19-cfr"></div>
+
+      <!-- <div class="counter-holder">
+
+        <p class="subtitle counter"><strong>Infectados:</strong> 0</strong></p>
+      
+      </div> -->
+
+      <p class="chart-explainer">A nova epidemia parece se espalhar mais rápido que as gripes normais, ainda que o número base de reprodutibilidade seja, por enquanto, incerto.</p>
+
+    </div>
+
+    <div class="chart-holder">
+      
+      <h4 class="title">H1N1 (2009)</h4>
+  
+      <div class="subtitle gen-count-cfr h1n1">1ª geração</div>
+  
+      <div class="subtitle day-count h1n1">Dia 1</div>
+
+      <div class="subtitle parameters h1n1"><strong>r0:</strong> 1.5 | <strong>SI</strong>: 2.8 | <strong>CFR:</strong> 0.02%</div>
+
+      <div class="chart" id="h1n1-cfr"></div>
+
+      <!-- <div class="counter-holder">
+        
+        <p class="subtitle counter"><strong>Infectados:</strong> 0</strong></p>
+      
+      </div> -->
+
+      <p class="chart-explainer">Até mesmo o nível de contágio da epidemia de H1N1 de 2009, que ficou conhecida como 'Gripe Suína', foi menor que o observado nos primeiros meses de disseminação do novo coronavírus.</p>
+
+    </div>
+
+    <div class="chart-holder">
+      
+        <h4 class="title">Sarampo</h4>
+
+        <div class="subtitle gen-count-cfr measles">1ª geração</div>
+
+        <div class="subtitle day-count measles">Dia 1</div>
+
+        <div class="subtitle parameters measles"><strong>r0:</strong> 15 | <strong>SI</strong>: 11.7 | <strong>CFR:</strong> 15%</div>
+
+        <div class="chart" id="measles-cfr"></div>
+
+        <!-- <div class="counter-holder">
+
+          <p class="subtitle counter"><strong>Infectados:</strong> 0</strong></p>
+
+        </div> -->
+
+        <p class="chart-explainer">Outras doenças são ainda mais contagiosas. O sarampo é um exemplo: ainda que hoje esteja contido após campanhas de vacinação bem-sucedidas, o vírus é capaz de causar grandes surtos em uma população vulnerável.</p>
+
+    </div>
+
+  </div>
 
 
+
+  <!-- D3.js -->
   <script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <!-- Dataviz -->
   <script src="draw.js"></script>
-  <!-- <script src="chart-1.js"></script> -->
-  <!-- <script src="chart-2.js"></script> -->
+  
+  <!-- Force layout pre-processing -->
   <!-- <script src="pre-process-force.js"></script> -->
   
   <!-- Math notation -->
