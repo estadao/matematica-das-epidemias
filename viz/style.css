@@ -1,8 +1,22 @@
-/* Dataviz */
-
+/* Page styles */
 body {
-  /*background-color: #fff5fb;*/
+  background-color: #fff5fb;
 }
+
+.math {
+
+  font-family: 'Old Standard TT', serif !important;
+  font-weight: bold;
+
+}
+
+h4 {
+
+  color: #68688e;
+
+}
+
+/* Dataviz */
 
 rect {
   display: none;
@@ -14,9 +28,9 @@ svg {
 }
 
 line {
-  stroke: #e4e4e4;
-  stroke-width: .5;
-  visibility: hidden;
+  stroke: #000;
+  stroke-width: 2;
+  visibility: visible;
 }
 
 .container {
@@ -27,6 +41,7 @@ line {
   width: 100%;
   overflow: hidden;
   margin: auto;
+  margin-bottom: 40px;
   
 }
 
@@ -55,25 +70,31 @@ line {
   text-align: center;
 }
 
+.info-holder {
+  text-align: center;
+}
+
 .day-count, .gen-count, .gen-count-si, .gen-count-cfr {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: lighter;
   font-family: "Lato", sans-serif;
+  font-weight: bold;
 }
 
 .parameters {
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Lato", sans-serif;
   padding: 5px;
 }
 
 .chart-explainer {
-  height: 100px;
-  width: 300px;
+  height: 130px;
+  width: 310px;
   text-align: left;
   font-size: 14px;
   color: #000;
   padding: 20px;
+  text-align: center;
 }
 
 .active {
@@ -87,45 +108,13 @@ line {
   visibility: visible;
 }
 
-
-
-
-/*circle[data-generation="1"] {
-  fill: #a70000;
+.bad-color {
+  color: #a3240d;
+  font-weight: bolder;
 }
 
-circle[data-generation="2"] {
-  fill: #ff0000;
-}
+.good-color {
+  color: #006400;
+  font-weight: bolder;
 
-circle[data-generation="3"] {
-  fill: #ff5252;
 }
-
-circle[data-generation="4"] {
-  fill: #ff7b7b;
-}
-
-circle[data-generation="5"] {
-  fill: #ffbaba;
-}
-
-line[data-generation="1"] {
-  stroke: #a70000;
-}
-
-line[data-generation="2"] {
-  stroke: #FF0000;
-}
-
-line[data-generation="3"] {
-  stroke: #FF5252;
-}
-
-line[data-generation="4"] {
-  stroke: #ff7b7b;
-}
-
-line[data-generation="5"] {
-  stroke: #ffbaba;
-}*/

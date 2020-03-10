@@ -7,9 +7,10 @@ function draw(diseases) {
 
         d3.json(`${diseases[0]}-pre-processed.json`),
         d3.json(`${diseases[1]}-pre-processed.json`),
-        d3.json(`${diseases[2]}-pre-processed.json`),
+        d3.json(`${diseases[2]}-pre-processed.json`)
 
     ]).then(function(datasets) {
+
 
         function drawBaseNumber() {
             /* Draws the charts that display

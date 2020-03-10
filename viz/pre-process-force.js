@@ -18,12 +18,15 @@ Promise.all([
 
     d3.json(`../output/covid-19.json`),
     d3.json(`../output/h1n1.json`),
-    d3.json(`../output/smallpox.json`),
-    d3.json(`../output/measles.json`)
+    //d3.json(`../output/smallpox.json`),
+    d3.json(`../output/measles.json`),
+    d3.json(`../output/hypothetic-r0-0.5.json`),
+    d3.json(`../output/hypothetic-r0-1.5.json`)
 
 ]).then(function(datapointsCollection) {
 
     for (let [index, datapoints] of datapointsCollection.entries()) {
+
 
         // Define a stratify utility to create an hierarchy
         let stratify = d3.stratify()
@@ -32,7 +35,7 @@ Promise.all([
 
         // Stratify the data
         datapoints = stratify(datapoints);
-    
+
         // Set up the hierarchy
         let root = d3.hierarchy(datapoints);
         let nodes = root.descendants();
@@ -81,7 +84,7 @@ Promise.all([
         }
 
         // Show me the output
-        console.log(outputData);
+        // console.log(outputData);
 
         // Save it
         let filename = ""
@@ -107,6 +110,24 @@ Promise.all([
         else if (index == 3) {
 
             filename = "measles-pre-processed.json"
+
+        }
+
+        else if (index == 4) {
+
+          filename = "r0-0.5-pre-processed.json"
+
+        }
+
+        else if (index == 5) {
+
+          filename = "r0-1.5-pre-processed.json"
+
+        }
+
+        else if (index == 6) {
+
+          filename = "r0-constant-pre-processed.json"
 
         }
 

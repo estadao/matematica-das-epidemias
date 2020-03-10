@@ -32,24 +32,34 @@ COVID19 = {
   "cfr" : { "mean" : .023, "std" : 1 } # Source:  https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200219-sitrep-30-covid-19.pdf?sfvrsn=3346b04f_2
 } 
 
+COVID19_80_MORE = {
+
+  "name" : "Covid-19-80-more-years",
+  "r0"  : { "mean" : 2.6, "std" : 1 },
+  "si"  : { "mean" : 4.41, "std" : 1 },
+  "cfr" : { "mean" : .148 ,"std" : 1 } # Source: https://jamanetwork.com/journals/jama/fullarticle/2762130?guestAccessKey=bdcca6fa-a48c-4028-8406-7f3d04a3e932&utm_source=For_The_Media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=022420
+
+} 
+
+COVID19_70_79 = {
+
+  "name" : "Covid-19-70-to-79-years",
+  "r0"  : { "mean" : 2.6, "std" : 1 }, 
+  "si"  : { "mean" : 4.41, "std" : 1 }, 
+  "cfr" : { "mean" : .08, "std" : 1 } # Source: https://jamanetwork.com/journals/jama/fullarticle/2762130?guestAccessKey=bdcca6fa-a48c-4028-8406-7f3d04a3e932&utm_source=For_The_Media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=022420
+  
+}
+
 
 H1N1_2009 = {
 
   "name" : "H1N1",
   "r0"  : { "mean" : 1.5, "std" : 1 }, # Source: https://www.ncbi.nlm.nih.gov/pubmed/19545404
   "si"  : { "mean" : 2.8, "std" : 1 }, # Source: https://academic.oup.com/aje/article/180/9/865/2739204
-  "cfr" : { "mean" : .0002, "std" : 1 } # Source: https://www.reuters.com/article/us-flu-h1n1-pandemic/swine-flu-infected-1-in-5-death-rate-low-study-shows-idUSBRE90O0T720130125
+  "cfr" : { "mean" : .0002, "std" : 1 } # Source: https://onlinelibrary.wiley.com/doi/pdf/10.1111/irv.12074
 
 }
 
-# H1N1_1918 = {
-  
-#   "name" : "H1N1 (Spanish Flu)",
-#   "r0"  : { "mean" : 2, "std" : 1 }, # Source:   https://academic.oup.com/ije/article/36/4/881/667165
-#   "si"  : { "mean" : , "std" : 1 }, # Source: https://academic.oup.com/aje/article/180/9/865/2739204
-#   "cfr" : { "mean" : ., "std" : 1 } # Source: https://www.reuters.com/article/us-flu-h1n1-pandemic/swine-flu-infected-1-in-5-death-rate-low-study-shows-idUSBRE90O0T720130125
-
-# }
 
 SMALLPOX = {
 
@@ -66,12 +76,40 @@ MEASLES = {
   "name" : "Measles",
   "r0"  : { "mean" : 15, "std" : 1 }, # Source: https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(17)30307-9.pdf, acknowledges huge variation
   "si"  : { "mean" : 11.7, "std" : 1 }, # Source: https://academic.oup.com/aje/article/180/9/865/2739204
-  "cfr" : { "mean" : .15, "std" : 1 } # Source: https://www.cdc.gov/vaccines/pubs/pinkbook/meas.html
+  "cfr" : { "mean" : .002, "std" : 1 } # Source: https://www.cdc.gov/vaccines/pubs/pinkbook/meas.html
+
+}
+
+HYPOTHETIC_RO_GROWTH = {
+
+  "name" : "Hypothetic-R0-1.5",
+  "r0"  : { "mean" : 1.8, "std" : 1 }, # Source: https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(17)30307-9.pdf, acknowledges huge variation
+  "si"  : { "mean" : 2, "std" : 0 }, # Source: https://academic.oup.com/aje/article/180/9/865/2739204
+  "cfr" : { "mean" : 0, "std" : 0 } # Source: https://www.cdc.gov/vaccines/pubs/pinkbook/meas.html
+  
+}
+
+HYPOTHETIC_RO_DIE_OUT = {
+
+  "name" : "Hypothetic-R0-0.5",
+  "r0"  : { "mean" : 0.9, "std" : 1 }, # Source: https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(17)30307-9.pdf, acknowledges huge variation
+  "si"  : { "mean" : 2, "std" : 0 }, # Source: https://academic.oup.com/aje/article/180/9/865/2739204
+  "cfr" : { "mean" : 0, "std" : 0 } # Source: https://www.cdc.gov/vaccines/pubs/pinkbook/meas.html
+
+}
+
+HYPOTHETIC_CONSTANT_R0 = {
+
+  "name" : "Hypothetic-R0-Constant",
+  "r0"  : { "mean" : 2, "std" : 0 }, # Source: https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(17)30307-9.pdf, acknowledges huge variation
+  "si"  : { "mean" : 2, "std" : 0 }, # Source: https://academic.oup.com/aje/article/180/9/865/2739204
+  "cfr" : { "mean" : 0, "std" : 0 } # Source: https://www.cdc.gov/vaccines/pubs/pinkbook/meas.html
 
 }
 
 
 # Note: othervise than when indicated, we assume that the standard deviations are 1
+
 #####################
 ### MAIN FUNCTION ###
 #####################
@@ -103,9 +141,14 @@ def choose_virus():
   viruses = {
 
     "a" : COVID19,
-    "b" : H1N1_2009,
-    "c" : SMALLPOX,
-    "d" : MEASLES
+    "b" : COVID19_70_79,
+    "c" : COVID19_80_MORE,
+    "d" : H1N1_2009,
+    "e" : SMALLPOX,
+    "f" : MEASLES,
+    "g" : HYPOTHETIC_RO_GROWTH,
+    "h" : HYPOTHETIC_RO_DIE_OUT,
+    "i" : HYPOTHETIC_CONSTANT_R0,
 
   }
 
@@ -205,7 +248,11 @@ def run(virus, max_generations):
   case_zero["generation"] = 1
 
   # This array will be populated with the original infection case
-  population = [ case_zero  ]
+  population = [ case_zero ]
+
+  # If the we are using the hypothetic die out disease, populate with more
+  if virus["name"] in [ "Hypothetic-R0-0.5", "Hypothetic-R0-1.5", "Hypothetic-R0-Constant" ] :
+    print('This is an hypothetic virus that serve to demonstrate how the r0 works')
 
   # For each person in the population...
   for person in population:
