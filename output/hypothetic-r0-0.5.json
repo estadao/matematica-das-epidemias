@@ -1,0 +1,51 @@
+[
+    {
+        "id": "0001",
+        "virus_name": "Hypothetic-R0-0.5",
+        "to_infect": 2,
+        "countdown": 2,
+        "alive": true,
+        "resolved": true,
+        "parent": null,
+        "children": [
+            "0002",
+            "0003"
+        ],
+        "generation": 1
+    },
+    {
+        "id": "0002",
+        "virus_name": "Hypothetic-R0-0.5",
+        "to_infect": -2,
+        "countdown": 2,
+        "alive": true,
+        "resolved": true,
+        "parent": "0001",
+        "children": [],
+        "generation": 2
+    },
+    {
+        "id": "0003",
+        "virus_name": "Hypothetic-R0-0.5",
+        "to_infect": 1,
+        "countdown": 2,
+        "alive": true,
+        "resolved": true,
+        "parent": "0001",
+        "children": [
+            "0004"
+        ],
+        "generation": 2
+    },
+    {
+        "id": "0004",
+        "virus_name": "Hypothetic-R0-0.5",
+        "to_infect": 0,
+        "countdown": 2,
+        "alive": true,
+        "resolved": true,
+        "parent": "0003",
+        "children": [],
+        "generation": 3
+    }
+]
